@@ -1,4 +1,5 @@
 django
 pypdf #to process .pdf files
 python-docx #to process .docx files
-textract
+# textract
+pandas
