@@ -15,8 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.http import HttpResponse
+
+def home(request):
+    # Your logic to retrieve something
+    data = "Hello, world!"  # Example data
+    
+    return HttpResponse(data)
 
 urlpatterns = [
-    path("cv_app/", include("cv_app.urls"))
+    path("cv_app/", include("cv_app.urls")),
     # path('admin/', admin.site.urls),
+    path("", home )
+    
 ]
