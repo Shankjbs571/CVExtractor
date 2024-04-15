@@ -25,9 +25,7 @@ SECRET_KEY = 'django-insecure-nz1qh9*(0+2o4kidxpkce@3!u#^28gb8zy@b_y@o7m(yg-_ur$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'https://cvextractor.onrender.com'
-]
+ALLOWED_HOSTS = []
 
 
 # Application definition
